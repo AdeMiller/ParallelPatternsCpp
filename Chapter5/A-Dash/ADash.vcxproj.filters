@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AdatumDashApp.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="AdatumDashDlg.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AdatumDashApp.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="AdatumDashDlg.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisEngine.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketModel.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="MarketRecommendation.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StockAnalysis.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="StockData.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+    <ClInclude Include="AnalysisEngineState.h">
+      <Filter>Header files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="res\AdatumDash.rc2">
+      <Filter>Resource files</Filter>
+    </None>
+    <None Include="res\AdatumDash.ico">
+      <Filter>Resource files</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Header files">
+      <UniqueIdentifier>{d17229f1-d488-4851-8899-3e578948cc48}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source files">
+      <UniqueIdentifier>{fa55e116-a0d9-4e5c-8b93-bc0ace24d6fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resource files">
+      <UniqueIdentifier>{f87cb363-f910-4c64-804e-8d509a5932b3}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="AdatumDash.rc">
+      <Filter>Resource files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>
